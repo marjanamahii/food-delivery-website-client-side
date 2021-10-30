@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Burger",
+        "price": "300",
+        "description": "There are some ingredients in the burger which has healthy proteins which helps you to build muscles. Ingredients such as bacon are a brilliant source of protein which will surely help you to keep your body fitter.",
+        "img": "https://i.ibb.co/cxHRj06/food1.png"
+    },
+    {
+        "id": 2,
+        "name": "Pizza",
+        "price": "550",
+        "description": "Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.",
+        "img": "https://i.ibb.co/BZqShZh/food2.png"
+    },
+    {
+        "id": 3,
+        "name": "Sandwich",
+        "price": "150",
+        "description": "A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type.",
+        "img": "https://i.ibb.co/mG4N20S/food3.png"
+    },
+    {
+        "id": 4,
+        "name": "Steak",
+        "price": "380",
+        "description": "A steak is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers.",
+        "img": "https://i.ibb.co/PD4gm2t/food4.png"
+    },
+    {
+        "id": 5,
+        "name": "Barbecue Chicken",
+        "price": "400",
+        "description": "Barbecue chicken consists of chicken parts or entire chickens that are barbecued, grilled or smoked. There are many global and regional preparation techniques and cooking styles. Barbecue chicken is often seasoned or coated in a spice rub, barbecue sauce, or both.",
+        "img": "https://i.ibb.co/446PLRg/food5.png"
+    },
+    {
+        "id": 6,
+        "name": "Biryani",
+        "price": "300",
+        "description": "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat usually that of chicken, goat, lamb, prawn, fish, and sometimes, in addition, eggs or vegetables such as potatoes in certain regional varieties.",
+        "img": "https://i.ibb.co/kDPRCGB/food6.png"
+    },
+    {
+        "id": 7,
+        "name": "French Fries",
+        "price": "180",
+        "description": "French fries, chips, finger chips, French-fried potatoes, or simply fries are batonnet or allumette-cut deep-fried potatoes, originating from either Belgium or France. They are prepared by cutting the potato into even strips, then drying and frying it, usually in a deep fryer.",
+        "img": "https://i.ibb.co/VNdN1kT/food7.png"
+    },
+    {
+        "id": 8,
+        "name": "French Toast",
+        "price": "200",
+        "description": "French toast is a dish made of sliced bread soaked in beaten eggs and typically milk, then pan fried. French toast is often topped with butter, preserves, or syrup. It is often used as a method to use up French bread that is a day or two old and has started to dry out.",
+        "img": "https://i.ibb.co/ctbKmCL/food8.png"
+    }
+]
