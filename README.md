@@ -2,7 +2,7 @@
 
 We believe independent restaurants occupy a distinctive position in the world of business. They are visible, important and integral parts of the communities they serve. Unlike their chain counterparts, people often have a personal connection to one or more of their home grown restaurants. Independents have a local identity and are often one of the most tangible representations of an area's heritage, history and unique character.
 
-## Live Website Link
+# Live Website Link
 
 https://food-delivery-website-4210e.web.app/
 
