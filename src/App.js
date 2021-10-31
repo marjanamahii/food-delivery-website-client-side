@@ -9,8 +9,9 @@ import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import initializeAuthentication from './Pages/Login/Firebase/firebase.init';
 import AddService from './Pages/AddService/AddService';
-import Orders from './Pages/Orders/Orders';
 import ManageAllOrders from './Pages/Home/ManageAllOrders/ManageAllOrders';
+import PlaceOrder from './Pages/PlaceOrder/PlaceOrder';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 initializeAuthentication();
@@ -31,8 +32,8 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute path="/orders">
-              <Orders></Orders>
+            <PrivateRoute path="/placeorder/:serviceId">
+              <PlaceOrder></PlaceOrder>
             </PrivateRoute>
             <Route path="/addservice">
               <AddService></AddService>
@@ -44,6 +45,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

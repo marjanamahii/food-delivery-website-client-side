@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaBeer, FaUserAlt } from 'react-icons/fa';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
@@ -8,25 +9,20 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar bg="white" variant="info" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar bg="dark" variant="info" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img
-                            alt=""
-                            src="/logo.svg"
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top"
-                        />{' '}
                         Yummy Hut
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
+                        <Nav.Link as={HashLink} to="/placeorder">Place Order</Nav.Link>
+                        <Nav.Link as={HashLink} to="/manageAllOrders">Manage All Orders</Nav.Link>
                         {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
+                            <Nav.Link as={Link} to="/login"><FaUserAlt></FaUserAlt> </Nav.Link>}
                         <Navbar.Text>
                             <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
