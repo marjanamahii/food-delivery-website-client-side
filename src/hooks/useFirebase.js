@@ -38,12 +38,15 @@ const useFirebase = () => {
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
-            .then(() => { })
+            .then(() => {
+                setUser({})
+            })
             .finally(() => setIsLoading(false));
     }
 
     return {
         user,
+        setUser,
         isLoading,
         signInUsingGoogle,
         logOut

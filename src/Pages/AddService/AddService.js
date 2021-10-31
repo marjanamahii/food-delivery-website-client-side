@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import './AddService.css';
 
 const AddService = () => {
-    const { register, handleSubmit, reset } = useForm();
+    const { register, handleSubmit, reset, formState: { errors }, } = useForm();
 
     const onSubmit = data => {
         console.log(data);
@@ -25,7 +25,10 @@ const AddService = () => {
                 <textarea {...register("description")} placeholder="Description" />
                 <input type="number" {...register("price")} placeholder="Price" />
                 <input {...register("img")} placeholder="Image url" />
-                <input type="submit" />
+                <input className="p-1 mt-3 btn btn-danger" type="submit" />
+                {errors.exampleRequired && <span>This field is required</span>}
+                <br />
+
             </form>
         </div>
     );
